@@ -1,0 +1,163 @@
+#root {
+  max-width: 100vw;
+  max-height: 100vh;
+  margin: 30px 0;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+}
+
+/* 
+#a688fa purple
+#282828 black
+#ffffffde white
+*/
+
+* {
+  margin: 0;
+  min-width: 0;
+  min-height: 0;
+}
+
+.comfortaa {
+  font-family: 'Comfortaa', cursive;
+  color: #ffffffde
+}
+
+.back-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid #a688fa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid #a688fa;
+  background-color: #282828;
+}
+
+.info-divider {
+  width: 92%;
+  height: 1px;
+  border-radius: 10px;
+  background: #a688fa;;
+}
+
+.main-info-card {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 1.25rem 2rem;
+}
+
+.username {
+  font-size: 1.2rem;
+  margin-left: 0.8rem;
+}
+
+.sub-info-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+.grade-info-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  background-color: #282828;
+  border-radius: 10px;
+  border: 2px solid #a688fa;
+  padding: 1.25rem 2rem;
+}
+
+.grade-info-card img {
+  width: 65px;
+  height: auto;
+}
+
+.bottom-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.additional-info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: #282828;
+  border-radius: 10px;
+  border: 2px solid #a688fa;
+  padding: 1.25rem 2rem;
+}
+
+.additional-info-card div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.social-media img {
+  width: 25px;
+  height: auto;
+}
+
+.social-media div {
+  display: flex;
+  gap: 0.7rem;
+  cursor: pointer;
+  color: #a688fa;
+}
+
+.social-media a, .social-media a:visited, .social-media a:hover, .social-media a:active, .social-media a:focus {
+  color: #a688fa;
+}
+
+.graphs-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.35rem;
+  background-color: #282828;
+  border-radius: 10px;
+  border: 2px solid #a688fa;
+  padding: 1.25rem 2rem;
+}
