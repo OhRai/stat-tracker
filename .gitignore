@@ -1,3 +1,4 @@
+.gitignore
 test.py
 /stat-tracker
 /backend/db.sqlite3
