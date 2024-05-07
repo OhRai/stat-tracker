@@ -3,6 +3,8 @@
 
 This project is an osu! stat tracker designed to provide players with detailed statistics and historical data about their performance in the game. It uses React with TypeScript for the front end and Django with Python for the backend API.
 
+![website screenshot](website.png)
+
 ## Features
 
 - Track and display osu! player statistics
